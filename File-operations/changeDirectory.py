@@ -6,3 +6,5 @@ print(os.listdir()) # list directory return the list of file in that directory
 
 
 #opening a existing file
+
+# os.chdir('location of file')
