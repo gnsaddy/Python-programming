@@ -9,6 +9,8 @@ class parent(ABC):
     @abstractmethod
     def disp(self):
         pass
+    def check(self):
+        print("from abstract class")
 
 class child1(parent):
     def show(self):
@@ -26,7 +28,9 @@ class child2(parent):
 obj = child1()
 obj.show()
 obj.disp()
+obj.check()
 
 obj2 = child2()
 obj2.show()
 obj2.disp()
+obj2.check()
