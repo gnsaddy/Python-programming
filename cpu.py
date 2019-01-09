@@ -1,32 +1,21 @@
-"""
-==============
-System Monitor
-==============
-
-"""
 import time
 import matplotlib.pyplot as plt
 import numpy as np
-
 
 def get_memory(t):
     "Simulate a function that returns system memory"
     return 100 * (0.5 + 0.5 * np.sin(0.5 * np.pi * t))
 
-
 def get_cpu(t):
     "Simulate a function that returns cpu usage"
     return 100 * (0.5 + 0.5 * np.sin(0.2 * np.pi * (t - 0.25)))
-
 
 def get_net(t):
     "Simulate a function that returns network bandwidth"
     return 100 * (0.5 + 0.5 * np.sin(0.7 * np.pi * (t - 0.1)))
 
-
 def get_stats(t):
     return get_memory(t), get_cpu(t), get_net(t)
-
 
 fig, ax = plt.subplots()
 ind = np.arange(1, 4)
