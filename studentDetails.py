@@ -15,11 +15,15 @@ class Student:
 
 class Display(Student):
 
+    def address(self):
+        self.address=input("Enter address : ")
+
     def show(self):
         print("Name : ", self.name)
         print("USN : ", self.USN)
         print("Marks : ", self.marks)
         print("age : ", self.age)
+        print("Address : ", self.address)
         print("Sports : ", self.sports)
         print("Coding : ", self.coding)
         print("extra : ", self.extra)
@@ -28,6 +32,7 @@ class Display(Student):
 obj  = Display()
 obj.getDetails()
 obj.getCurricular()
+obj.address()
 obj.show()
 dt = obj.__dict__
 

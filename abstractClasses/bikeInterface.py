@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 
-
 class VechicleInterface(ABC):
 
     @abstractmethod
@@ -25,7 +24,7 @@ class Car(VechicleInterface):
         print("Model -- Ford Mastang model 2002 ")
 
     def vechicleState(self):
-        print("Vechile state --- Karnata ")
+        print("Vechile state --- Karnataka ")
 
 
 
@@ -38,7 +37,7 @@ class Bike(VechicleInterface):
         print("Model -- Ford CBR 250 model 2018 ")
 
     def vechicleState(self):
-        print("Vechile state --- Karnata ")
+        print("Vechile state --- Karnataka ")
 
 class Truck(VechicleInterface):
 
