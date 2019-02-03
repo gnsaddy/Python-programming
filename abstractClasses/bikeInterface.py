@@ -1,5 +1,5 @@
-from abc import ABC
-from abc import abstractmethod
+from abc import ABC, abstractmethod
+
 
 class VechicleInterface(ABC):
 
@@ -79,8 +79,3 @@ while(True):
     elif ch>3:
         print("Thank you for visit ")
         exit()
-
-
-
-
-    
