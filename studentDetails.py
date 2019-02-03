@@ -16,8 +16,8 @@ class Student:
 class Display(Student):
 
     def show(self):
-        print("Name : ",self.name)
-        print("USN : ",self.USN)
+        print("Name : ", self.name)
+        print("USN : ", self.USN)
         print("Marks : ", self.marks)
         print("age : ", self.age)
         print("Sports : ", self.sports)
