@@ -1,4 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\adity\\Anaconda3\\python.exe",
-    "python.linting.pylintEnabled": true
+    "python.pythonPath": "/home/aditya/anaconda3/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.terminal.activateEnvironment": false
 }
